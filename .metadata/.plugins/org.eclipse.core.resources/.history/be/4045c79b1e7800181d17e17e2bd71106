@@ -1,0 +1,46 @@
+package com.ecommerceguru;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Firsttask {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://live.guru99.com/index.php/");
+		System.out.println(driver.getTitle());
+		driver.findElementByLinkText("Mobile").click();
+        System.out.println(driver.getTitle());
+           List<WebElement>options = driver.findElementsByXPath(".//*[@id='top']/body/div[1]/div/div[2]/div/div[2]/div[1]/div[3]/div[1]/div[1]/div/select");
+        		for(int i=0;i<options.size();i++)
+        		{
+        			String cname = options.get(i).getText();
+        	           if(cname.equals("name"))
+        	        {
+        			Actions act = new Actions(driver);
+        			act.click().build().perform();
+        			for(int x=1;x<=3;x++)
+        					{
+        				String producttitle = driver.findElementById("product-collection-image-"+i).getText();
+        				System.out.println(producttitle);
+        				
+        				
+        					}
+        	        }
+        			else
+        			{
+        			}
+        			
+        			
+        	        }
+        		}
+
+
+	}
+
+}

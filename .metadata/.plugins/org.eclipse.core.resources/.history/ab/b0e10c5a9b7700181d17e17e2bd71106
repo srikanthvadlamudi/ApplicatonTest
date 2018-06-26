@@ -1,0 +1,25 @@
+package stepDefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class GmailPracticeLogin {
+//  Use cucumber to bind the feature file steps to java code
+	// glue code step definitions
+	@Given (" the user is on gmail home login page")
+	public void theuserisongmailhomeloginpage() {
+		System.out.println("S1: user is on home page");
+		
+	}
+	
+	@When ("the user enters valid username and password")
+	public void the_user_enters_valid_username_and_password() {
+		System.out.println("S2: user enters the credentials");
+	}
+	@Then ("the user should be able to successfully login to inbox")
+	public void the_user_should_be_able_to_successfullylogintoinbox()
+	{
+		System.out.println("s3: user succesfully logged in");
+}
+}

@@ -1,0 +1,26 @@
+<suitename = "NewTours">
+
+<test name = "on Firefox">
+<parameter name = "Browser" value = "firefox"/>
+<classes>
+<classname ="com.Grid.Gridexample"/>
+</classes>
+</test>
+
+<test name = "on chrome">
+<parameter name = "Browser" value = "chrome"/>
+<classes>
+<classname ="com.Grid.Gridexample"/>
+</classes>
+</test>
+
+<test name = "on edge">
+<parameter name = "Browser" value = "edge"/>
+<classes>
+<classname ="com.Grid.Gridexample"/>
+</classes>
+</test>
+
+
+
+</suite>

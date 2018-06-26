@@ -1,0 +1,10 @@
+package com.links;
+
+public class tsrtc_homepage_block_linkscount_print_validate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

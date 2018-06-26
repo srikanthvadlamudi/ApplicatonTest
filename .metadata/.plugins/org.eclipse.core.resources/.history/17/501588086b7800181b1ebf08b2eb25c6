@@ -1,0 +1,6 @@
+<suitename = "NewTours"?
+<test name = "on Firefox">
+<classes>
+<classname ="com.Grid.Gridexample"/>
+</classes>
+</test?

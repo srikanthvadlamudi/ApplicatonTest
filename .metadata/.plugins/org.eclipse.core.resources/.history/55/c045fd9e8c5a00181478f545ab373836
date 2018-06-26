@@ -1,0 +1,18 @@
+package Arrays;
+
+public class Arrayexample {
+
+	public static void main(String[] args)
+	{
+		//datatype Arraname[] = new datatype[size]
+// Array index always starts with 0		
+		int a[]= new int[3];
+		
+		a[0] = 10;
+		
+		System.out.println(a[0]);
+		
+
+	}
+
+}

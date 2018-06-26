@@ -1,0 +1,31 @@
+
+<suite name = "NewToursApplicaton" >
+
+<test name = "LogIn">
+<classes>
+<class name = "com.Keyworddriven.Newtours_Login"/>
+</classes>
+</test>
+
+<test name = "NewUserRegistration">
+<classes>
+<class name = "com.DataDriven.Newtour_UserReg_Exceldata"/>
+</classes>
+</test>
+
+<test name = "NewTours_homepage">
+<classes>
+<class name = "com.POM.NewTours_HomePage_Testing"/>
+</classes>
+</test>
+
+
+<test name = "facebook">
+<classes>
+<class name = "com.FacebookTesting.facebooklogin"/>
+</classes>
+</test>
+
+
+</suite>
+

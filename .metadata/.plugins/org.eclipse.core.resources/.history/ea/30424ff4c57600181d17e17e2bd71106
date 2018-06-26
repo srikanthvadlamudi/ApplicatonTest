@@ -1,0 +1,13 @@
+Feature: NewTours Applicaton Login Functionality
+
+Scenario Outline: Validating Login Functionality
+
+Given Open Firefox Browser and navigate to newTours Applicaton
+When User enters valid "<Username>" and "<Password>" and click on signin
+Then User should be able to successfully login in and close the applicaton 
+Given click on the register 
+
+Examples:
+| Username | Password |
+| tutorial | tutorial |
+| admin	 | mercury |

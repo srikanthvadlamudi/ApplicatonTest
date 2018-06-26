@@ -1,0 +1,40 @@
+package com.links;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class tsrtc_homepage_block_linkscount_print_validate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://tsrtconline.in");
+		driver.findElementByXPath("html/body/div[3]/div");
+		List<WebElement> links = driver.findElementsByTagName("a");
+		
+		
+		for (int i=0;i<links.size();i++)
+		{
+		String linkname = links.get(i).getText();
+		links.get(i).click();
+		System.out.println(i +"  "+linkname);
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		System.out.println();
+		driver.navigate().back();
+		driver.findElementByClassName("menu");
+		links = driver.findElementsByTagName("a");
+		
+		
+		
+		}
+
+		
+		driver.close();
+
+	}
+
+}
+	

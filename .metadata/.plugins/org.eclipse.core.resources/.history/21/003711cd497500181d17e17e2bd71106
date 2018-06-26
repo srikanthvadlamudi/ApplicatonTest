@@ -1,0 +1,8 @@
+Feature: NewTours Applicaton Login Functionality
+
+Scenario: Validating Login Functionality
+
+Given Open Firefox Browser and navigate to newTours Applicaton
+When User enters valid username and pasword and click on signin
+Then User should be able to successfully login in and close the applicaton 
+

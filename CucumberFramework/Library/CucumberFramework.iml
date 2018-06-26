@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/Library/cobertura-2.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/cucumber-core-1.1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/cucumber-java-1.1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/cucumber-junit-1.1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/cucumber-jvm-deps-1.0.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/cucumber-reporting-0.1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/gherkin-2.12.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/junit-4.11.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/mockito-all-2.0.2-beta.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Library/selenium-server-standalone-2.53.1.jar!/" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="cobertura-2.1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/cobertura-2.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cucumber-core-1.1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/cucumber-core-1.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cucumber-java-1.1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/cucumber-java-1.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cucumber-junit-1.1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/cucumber-junit-1.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cucumber-jvm-deps-1.0.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/cucumber-jvm-deps-1.0.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cucumber-reporting-0.1.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/cucumber-reporting-0.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gherkin-2.12.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/gherkin-2.12.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="junit-4.11.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/junit-4.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mockito-all-2.0.2-beta.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/mockito-all-2.0.2-beta.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="selenium-server-standalone-2.53.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/selenium-server-standalone-2.53.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

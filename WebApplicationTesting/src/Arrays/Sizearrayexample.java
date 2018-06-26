@@ -1,0 +1,27 @@
+package Arrays;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Sizearrayexample {
+
+	public static void main(String[] args)
+	
+	{
+		// List<datatype>Arrayname = new Arraylist<>();
+		
+		List<String>a = new ArrayList<>();
+		
+		a.add("Selenium");
+		a.add("Loadrunner");
+		a.add("Jmeter");
+		a.add("QTP");
+		
+		for(int i=0;i<a.size();i++)
+		{
+	
+		System.out.println(a.get(i));
+		}
+	}
+
+}
